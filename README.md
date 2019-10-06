@@ -1,5 +1,5 @@
 # Get-PSLogSizeEstimate
-Get-PSLogSizeEstimate - Estimate SIEM storage requirements for PowerShell logs
+Estimate SIEM storage requirements for PowerShell logs
 
 This function will produce a report based on the Microsoft-Windows-PowerShell/Operational
 log with two estimations (All Events vs Specified Events) of how much space would be 
