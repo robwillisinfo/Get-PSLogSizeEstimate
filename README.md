@@ -22,7 +22,7 @@ How the estimate is calculated:
 
 Use the following command to load the script into the current PowerShell session:
 
-PS> . .\Get-PSLogSizeEstimate.ps1
+PS> **. .\Get-PSLogSizeEstimate.ps1**
 
 Get-PSLogSizeEstimate accepts the following command line parameters:
 
@@ -36,15 +36,15 @@ Example usage:
 
 Gather log info from the local host:
 
-PS> Get-PSLogSizeEstimate -EventID 4103,4104 -Retention 30 -Verbose
+PS> **Get-PSLogSizeEstimate -EventID 4103,4104 -Retention 30 -Verbose**
 
 Gather log info from a remote host:
 
-PS> Get-PSLogSizeEstimate -EventID 4103,4104 -Retention 30 -ComputerName DC01 -OutputFile Get-PSLogSizeEstimate-DC01.txt -Verbose
+PS> **Get-PSLogSizeEstimate -EventID 4103,4104 -Retention 30 -ComputerName DC01 -OutputFile Get-PSLogSizeEstimate-DC01.txt -Verbose**
 
 And the shorthand version of the previous command:
 
-PS> Get-PSLogSizeEstimate -e 4103,4104 -r 30 -c DC01 -o Get-PSLogSizeEstimate-DC01.txt -Verbose
+PS> **Get-PSLogSizeEstimate -e 4103,4104 -r 30 -c DC01 -o Get-PSLogSizeEstimate-DC01.txt -Verbose**
 
 And this is what the output looks like:
 
