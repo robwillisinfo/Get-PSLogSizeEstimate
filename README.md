@@ -18,7 +18,7 @@ How the estimate is calculated:
 
 # Usage
 
-!(https://github.com/robwillisinfo/Get-PSLogSizeEstimate/blob/master/Get-PSLogSizeEstimate.jpg)
+![Example Usage](https://github.com/robwillisinfo/Get-PSLogSizeEstimate/blob/master/Get-PSLogSizeEstimate.jpg)
 
 Use the following command to load the script into the current PowerShell session:
 
