@@ -16,7 +16,7 @@ How the estimate is calculated:
    Number of events x average event size x estimated log rotations per specified rentention period = 
    estimated storage requirement
 
-Usage
+# Usage
 
 Use the following command to load the script into the current PowerShell session:
 PS> . .\Get-PSLogSizeEstimate.ps1
