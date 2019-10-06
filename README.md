@@ -19,6 +19,7 @@ How the estimate is calculated:
 # Usage
 
 Use the following command to load the script into the current PowerShell session:
+
 PS> . .\Get-PSLogSizeEstimate.ps1
 
 Get-PSLogSizeEstimate accepts the following command line parameters:
