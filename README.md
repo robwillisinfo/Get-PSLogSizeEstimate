@@ -26,7 +26,7 @@ PS> **. .\Get-PSLogSizeEstimate.ps1**
 
 Get-PSLogSizeEstimate accepts the following command line parameters:
 
-    -EventID / -e: Required, the event ID’s to filter out, ex 4103, 4104.
+    **-EventID** / **-e**: Required, the event ID’s to filter out, ex 4103, 4104.
     -Retention / -r: Required, the rentention period in days, ex 30.
     -ComputerName / -c: Optional, a remote machine to gather the PowerShell logs from, ex Win-DC01.
     -OutputFile / -o: Optional, the name of the file to save the output to, ex test-output.txt.
