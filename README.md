@@ -9,11 +9,11 @@ This is extremely useful data to have if you are interested in the amount of sto
 that will be required when ingesting these logs into a central respository or SIEM.
 
 How the estimate is calculated:
-1. The size of the log divided by the total number of events = The average event size
+1. The size of the log divided by the total number of events in the log = The average event size
 2. Retention period divided by timespan of the newest and oldest events in the log = Log Rotations per
    the defined retention period 
 3. Building off the data from the two previous steps:
-   # of events x average event size x estimated log rotations per specified rentention period = 
+   Number of events x average event size x estimated log rotations per specified rentention period = 
    estimated storage requirement
 
 Usage
