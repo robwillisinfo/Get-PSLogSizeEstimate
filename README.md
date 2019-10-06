@@ -48,5 +48,5 @@ PS> Get-PSLogSizeEstimate -e 4103,4104 -r 30 -c DC01 -o Get-PSLogSizeEstimate-DC
 
 And this is what the output looks like:
 
-![Example Report](https://github.com/robwillisinfo/Get-PSLogSizeEstimate/blob/master/Get-PSLogSizeEstimate2.jpg)
+![Example Report](https://github.com/robwillisinfo/Get-PSLogSizeEstimate/blob/master/Example-Report.jpg)
 
