@@ -32,7 +32,7 @@ Get-PSLogSizeEstimate accepts the following command line parameters:
 Example usage:
 
 Gather log info from the local host:
-PS> PS> Get-PSLogSizeEstimate -EventID 4103,4104 -Retention 30 -Verbose
+PS> Get-PSLogSizeEstimate -EventID 4103,4104 -Retention 30 -Verbose
 
 Gather log info from a remote host:
 PS> Get-PSLogSizeEstimate -EventID 4103,4104 -Retention 30 -ComputerName DC01 -OutputFile Get-PSLogSizeEstimate-DC01.txt -Verbose
