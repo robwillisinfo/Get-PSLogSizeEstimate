@@ -22,6 +22,7 @@ How the estimate is calculated:
    estimated storage requirement
 
 Author: Rob Willis (robwillis.info) 
+Blog post: http://robwillis.info/2019/10/everything-you-need-to-know-to-get-started-logging-powershell/
 
 .PARAMETER -EventID
 
@@ -50,8 +51,6 @@ C:\PS> Get-PSLogSizeEstimate -e 4103,4104 -r 30 -Verbose -OutputFile localhost.t
 .EXAMPLE
 
 C:\PS> Get-PSLogSizeEstimate -EventID 4103,4104 -Retention 90 -ComputerName DC01 -Verbose -OutputFile DC01.txt -Verbose
-
-.LINK
 
 #>
 
