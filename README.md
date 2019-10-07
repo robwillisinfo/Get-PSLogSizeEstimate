@@ -16,6 +16,10 @@ How the estimate is calculated:
    Number of events x average event size x estimated log rotations per specified rentention period = 
    estimated storage requirement
 
+Blog post:
+
+http://robwillis.info/2019/10/everything-you-need-to-know-to-get-started-logging-powershell/
+
 # Usage
 
 ![Example Usage](https://github.com/robwillisinfo/Get-PSLogSizeEstimate/blob/master/Get-PSLogSizeEstimate.jpg)
@@ -52,7 +56,4 @@ And this is what the output looks like:
 
 ![Example Report](https://github.com/robwillisinfo/Get-PSLogSizeEstimate/blob/master/Example-Report2.jpg)
 
-Blog post:
-
-http://robwillis.info/2019/10/everything-you-need-to-know-to-get-started-logging-powershell/
 
