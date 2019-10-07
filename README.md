@@ -52,3 +52,7 @@ And this is what the output looks like:
 
 ![Example Report](https://github.com/robwillisinfo/Get-PSLogSizeEstimate/blob/master/Example-Report2.jpg)
 
+Blog post:
+
+http://robwillis.info/2019/10/everything-you-need-to-know-to-get-started-logging-powershell/
+
