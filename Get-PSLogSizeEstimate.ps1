@@ -30,7 +30,7 @@ decrease the amount of storage required. Alias -e.
 
 .PARAMETER -Retention
 
-The rentention period in days to use in the estimation. Alias -r.
+The retention period in days to use in the estimation. Alias -r.
 
 .PARAMETER -OutputFile
 
